@@ -1,0 +1,24 @@
+#ReviewBoard
+.reviewboardrc
+diff.patch
+
+#Project Files Of Idea
+.idea/
+*.iml
+
+#Output Folder
+target/
+
+#Log Folder
+logs/
+~/
+
+#Output Files
+*.jar
+*.class
+
+#Project Files Of Eclipse
+.settings/
+.classpath
+.project
+
