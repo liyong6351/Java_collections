@@ -9,8 +9,8 @@
     - [2.1 List](#21-list)
       - [2.1.1 StringList](#211-stringlist)
       - [2.1.2 ByteList](#212-bytelist)
-    - [2.1.3 ShortList](#213-shortlist)
-    - [2.1.4 ObjectList](#214-objectlist)
+      - [2.1.3 ShortList](#213-shortlist)
+      - [2.1.4 ObjectList](#214-objectlist)
     - [2.2 Queue](#22-queue)
       - [2.2.1 BlockingQueue](#221-blockingqueue)
         - [2.2.1.1 TransferQueue](#2211-transferqueue)
@@ -75,11 +75,11 @@ StringList是GenericString的不可变有序集合
 
 ByteList是byte的不可变有序集合
 
-### 2.1.3 ShortList
+#### 2.1.3 ShortList
 
 ShortList是unsigned int的不可变有序集合
 
-### 2.1.4 ObjectList
+#### 2.1.4 ObjectList
 
 ObjectList是Object的不可变有序集合
 
