@@ -19,7 +19,16 @@ size，isEmpty，get，set，iterator和listIterator操作以恒定时间运行�
 
 当插入数据时，首先要检查容量，如果容量不够需要扩容，扩容当前的系数是1.5。默认的库容是10
 
-## 3. add(int index, E element)
+## 3 属性
+
+* DEFAULT_CAPACITY 默认值10
+* DEFAULTCAPACITY_EMPTY_ELEMENTDATA 用于查看是否为空数组，如果为空则初始化容量为10
+* elementData 真正存储数据的地方
+* EMPTY_ELEMENTDATA 共享的创建空数组的返回值
+* MAX_ARRAY_SIZE 最大的容量值，Integer.MAX_VALUE - 8;一些VM在阵列中保留一些标题字。尝试分配更大的数组可能会导致OutOfMemoryError：请求的数组大小超过VM限制
+* serialVersionUID
+* size
+
+## 4. add(int index, E element)
 
 指定位置插入，在插入之前先要对位置之前的数据进行拷贝，这是比较费性能的
-
