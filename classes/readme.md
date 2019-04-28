@@ -8,6 +8,7 @@
 * LinkedList
 * Stack
 * HashSet
+* TreeSet
 * LinkedHashSet
 * ConcurrentLinkedDeque
 * ConcurrentLinkedQueue
