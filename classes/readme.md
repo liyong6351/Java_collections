@@ -7,6 +7,7 @@
 * ArrayList
 * LinkedList
 * Stack
+* abstractSet
 * HashSet
 * TreeSet
 * LinkedHashSet
